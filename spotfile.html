@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify clone</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="framework.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+</head>
+<body>
+  <div class="wrapper d-flex">
+    <main id="site_content" class="d-flex">
+
+      
+      <aside class="main_menu">
+       
+        <div class="logo-container">
+          <img class="logo" src="logo-small.svg" alt="">
+          <p>Spotify</p>
+        </div>
+        
+        <div class="nav-left">
+          <div class="nav-left-link">
+            <a href="#">
+              <img src="home.svg" alt="">
+              <p>Home</p>
+            </a>
+          </div>
+          <div class="nav-left-link">
+            <a href="#">
+              <img src="search.svg" alt="">
+              <p><input type="text" name="" value="" placeholder="Search"></p>
+            </a>
+          </div>
+          <div class="nav-left-link">
+            <a href="#">
+              <img src="libreria.svg" alt="">
+              <p>Library</p>
+            </a>
+          </div>
+        </div>
+        
+        <div class="playlist">
+          <h1>PLAYLIST</h1>
+          <div class="nav-left-playlist">
+            <a href="#">
+              <i class="fas fa-plus-square"></i>
+              <p>Create Playlist</p>
+            </a>
+          </div>
+          <a class="playlist-name" href="#">Dubstep</a>
+          <a class="playlist-name" href="#">House</a>
+          <a class="playlist-name" href="#">Edm</a>
+          <a class="playlist-name" href="#">Rock</a>
+          <a class="playlist-name" href="#">Trap</a>
+          <a class="playlist-name" href="#">Pop music</a>
+          <a class="playlist-name" href="#">Rnb</a>
+        </div>
+       
+        <div class="install-app">
+          <a href="#">
+            <img class="download-icon" src="download.svg" alt="">
+            <p>Install App</p>
+          </a>
+          <hr>
+        </div>
+        
+        <div class="profile">
+          <a href="#">
+            <img class="profile-icon" src="profile.svg" alt="">
+            <p>John Doe</p>
+          </a>
+        </div>
+      </aside>
+
+      
+      <section class="covers_section">
+      
+      <div class="subscribe_banner">
+        <a href="#">UPGRADE</a>
+      </div>
+        <nav>
+          <a href="#">IN EVIDENZA</a>
+          <a href="#">PODCAST</a>
+          <a href="#">CLASSIFICHE</a>
+          <a href="#">GENERI E MOOD</a>
+          <a href="#">NUOVE USCITE</a>
+          <a href="#">SCOPRI</a>
+        </nav>
+        <h2 class="playlist-title">Recently played</h2>
+        <div class="d-flex flex-wrap cover">
+          <a href="#">
+            <div class="item"><img src="metal_lifting.jpg" alt=""></div>
+            <h1>A quiet place</h1>
+            <p>Soundtrack</p>
+          </a>
+          <a href="#">
+            <div class="item"><img src="cure.jpeg" alt=""></div>
+            <h1>A quiet place</h1>
+            <p>Soundtrack</p>
+          </a>
+          <a href="#">
+            <div class="item"><img src="player_left.jpg" alt=""></div>
+            <h1>A quiet place</h1>
+            <p>Soundtrack</p>
+          </a>
+          <a href="#">
+            <div class="item"><img src="aquietplace.jpeg" alt=""></div>
+            <h1>A quiet place</h1>
+            <p>Soundtrack</p>
+          </a>
+          <a href="#">
+            <div class="item"><img src="sinister.jpeg" alt=""></div>
+            <h1>A quiet place</h1>
+            <p>Soundtrack</p>
+          </a>
+          <a href="#">
+            <div class="item"><img src="split.jpeg" alt=""></div>
+            <h1>A quiet place</h1>
+            <p>Soundtrack</p>
+          </a>
+        </div>
+        <h2 class="playlist-title">Create for John Doe</h2>
+        <p class="playlist-description">Più ascolti, più accurati saranno i suggerimenti</p>
+        <div class="d-flex flex-wrap cover">
+          <a href="#">
+            <div class="item"><img src="radar.jpeg" alt=""></div>
+            <h1>A quiet place</h1>
+          </a>
+          <a href="#">
+            <div class="item"><img src="mixdaily.jpeg" alt=""></div>
+            <h1>A quiet place</h1>
+          </a>
+        </div>
+        <h2 class="playlist-title">Create for John Doe</h2>
+        <p class="playlist-description">Più ascolti, più accurati saranno i suggerimenti</p>
+        <div class="d-flex flex-wrap cover">
+          <a href="#">
+            <div class="item"><img class="artist" src="youg.jpeg" alt=""></div>
+            <h1>A quiet place</h1>
+            <p>Soundtrack</p>
+          </a>
+          <a href="#">
+            <div class="item"><img class="artist" src="einaudi.jpeg" alt=""></div>
+            <h1>A quiet place</h1>
+            <p>Soundtrack</p>
+          </a>
+        </div>
+
+      </section>
+    </main>
+
+    <footer id="site_footer">
+      <div class="container album">
+        <div class="row">
+          <div class="col-lg-2">
+            <a href="#"><img class="album-image" src="sinister.jpeg" alt=""></a>
+            <a href="#"><p class="title-album">Sinister</p></a>
+            <a href="#"><p class="description-album">Album nome</p></a>
+            <a href="#"><i class="far fa-heart"></i></a>
+            <a href="#"><i class="far fa-folder"></i></a>
+          </div>
+          <div class="col-lg-8">
+            <div class="player">
+              <a href="#"><i class="fas fa-random"></i></a>
+              <a href="#"><i class="fas fa-backward"></i></a>
+              <a href="#"><i class="fas fa-play-circle"></i></a>
+              <a href="#"><i class="fas fa-forward"></i></a>
+              <a href="#"><i class="fas fa-redo-alt"></i></a>
+            </div>
+            <div class="time">
+              <p class="start-time">0:25</p>
+              <p class="time-line"></p>
+              <p class="end-time">4:35</p>
+
+            </div>
+          </div>
+          <div class="col-lg-2">
+            <div class="volume">
+              <a href="#"><i class="fas fa-list"></i></a>
+              <a href="#"><i class="fas fa-tv"></i></a>
+              <a href="#"><i class="fas fa-volume-up"></i></a>
+              <p class="volume-line"></p>
+            </div>
+          </div>
+          </div>
+
+        </div>
+      </div>
+    </footer>
+  </div>
+
+</body>
+</html>
